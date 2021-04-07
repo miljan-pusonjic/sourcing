@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
+
+/************************
+variables
+************************/
+    $primaryColor: #25235b;
+    $secondaryColor: #ee666c;  /*rgb(238, 102, 108)*/
+    $tertiaryColor: #69c5d7;
+    $black: #212529;
+    $lightGray: #f3f3f2;
+    $white: #fff;
+    $fontSize: 16px;
+    $fontFamily: 'Poppins', sans-serif;
+    $transition: .5s ease;
+    $boxShadow: 0 0 20px gray;
+    $textShadow: 0 0 2px gray;
+    $paddingY: 100px 0;
+/************************
+mixins
+************************/
+@mixin flex($justify, $align, $direction: row) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+}
+/************************
+basic styles
+************************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: $fontFamily;
+    font-size: $fontSize;
+}
+a {
+    text-decoration: none;
+    transition: $transition;
+    &:hover {
+        transition: $transition;
+    }
+}
+/************************
+header
+************************/
+header {
+    background-image:linear-gradient(to right, rgba($black, .8), rgba($black, .0)), url(../img/header3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    nav {
+        &.sticky {
+            background: rgba($primaryColor, .8);
+            transition: $transition;
+        }
+        background: transparent;
+        padding: 10px 0 !important;
+        .navbar-brand {
+            width: 15%;
+        }
+        .nav-link {
+            color: $white;
+            text-transform: uppercase;
+            font-size: 1.2rem;
+            &:hover {
+                color: $secondaryColor;
+            }
+        }
+    }
+}
+/************************
+hgroup
+************************/
+hgroup {
+    background: $primaryColor;
+    padding: 10px 0;
+    position: relative;
+    top: -100px;
+    h1 {
+        text-transform: uppercase;
+        font-size: 5rem;
+        font-weight: 800;
+        margin-top: -100px;
+        text-shadow: 0px 0px 10px $secondaryColor;
+    }
+    span {
+        color: $secondaryColor;
+        text-transform: uppercase;
+        display: inline-block;
+        font-weight: 600;
+        font-size: 2rem;
+        text-shadow: $textShadow;
+    }
+    p {
+        font-weight: 600 !important;
+    }
+}
+
+/************************
+#info
+************************/
+#info {
+    padding-bottom:50px;
+    display: flex;
+    article {
+        flex: 1;
+        .text {
+            color: $white;
+            padding: 30px;
+            margin: 20px;
+            h2 {
+                text-transform: uppercase;
+                font-weight: 800;
+            }
+        }
+    }
+    article:nth-child(1) {
+        @include flex(flex-start, flex-start, column);
+        .text:first-child {
+            background: $secondaryColor;
+        }
+        .text:last-child {
+            color: $black;
+            background: $lightGray;
+        }
+    }
+    article:nth-child(2){
+        @include flex(flex-end, flex-start, column);
+        margin-top: 50px;
+        .text:first-child {
+            background: $primaryColor;
+        }
+        .text:last-child {
+            background: $secondaryColor;
+        }
+    }
+    article:nth-child(3) {
+        @include flex(flex-end, flex-start, column);
+        margin-top: 50px;
+        .text:first-child {
+            color: $black;
+            background: $lightGray;
+        }
+        .text:last-child {
+            background: $primaryColor;
+        }
+    }
+}
+/************************
+#about
+************************/
+#about {
+    padding-bottom:100px;
+    background-image: url(../img/bg3.jpg);
+    background-position: center;
+    background-size: cover;
+    .carousel {
+        background: $secondaryColor;
+        display: block;
+        height: 300px;
+        .carousel-item {
+            padding: 10px;
+            p {
+                padding: 30px;
+                margin: auto;
+            }
+        }
+    }
+    .row:last-child {
+        // @include flex(space-between, center);
+        h2 {
+            font-size: 5rem;
+            transform: rotate(-90deg);
+            font-weight: 800;
+        }
+    }
+}
+/************************
+footer
+************************/
+footer {
+    padding: 50px 0;
+    background-image: url(../img/footer.jpg);
+    background-position: center;
+    background-size: cover;
+    img {
+        width: 70%;
+    }
+    a {
+        font-size: 2rem;
+        color: $black;
+        &:hover {
+            color: $white;
+        }
+    }
+}
+
