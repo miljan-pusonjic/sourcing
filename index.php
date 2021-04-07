@@ -57,13 +57,13 @@
                         </ol>
                         <div class="carousel-inner">
                           <div class="carousel-item active">
-                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quos impedit, voluptate sunt numquam, libero magnam veritatis, a amet id laudantium. Unde, provident quo animi repudiandae dolorem totam delectus eveniet deserunt nemo doloremque, cupiditate enim hic consectetur excepturi a quam quas eligendi reiciendis. Soluta iste, voluptates doloremque dolor nostrum sed?</p>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quos impedit, voluptate sunt numquam, libero magnam veritatis, a amet id laudantium. Unde, provident quo animi repudiandae dolorem totam delectus eveniet deserunt nemo doloremque, cupiditate enim hic consectetur.</p>
                           </div>
                           <div class="carousel-item align-items-center">
-                              <p><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo repudiandae et rerum culpa quidem dolorum ut consectetur, eaque facilis commodi. Qui earum et sequi est libero fuga perspiciatis hic eaque exercitationem iste! Blanditiis, est expedita.</p>
+                              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo repudiandae et rerum culpa quidem dolorum ut consectetur, eaque facilis commodi. Qui earum et sequi est libero fuga perspiciatis hic eaque exercitationem iste! Blanditiis, est expedita.</p>
                           </div>
                           <div class="carousel-item">
-                              <p> <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui earum et sequi est libero fuga perspiciatis hic eaque exercitationem iste! Blanditiis, est expedita. Sapiente inventore necessitatibus enim velit laborum repudiandae nulla! Inventore quisquam esse eum.</p>
+                              <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui earum et sequi est libero fuga perspiciatis hic eaque exercitationem iste! Blanditiis, est expedita. Sapiente inventore necessitatibus enim velit laborum repudiandae nulla! Inventore quisquam esse eum.</p>
                           </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

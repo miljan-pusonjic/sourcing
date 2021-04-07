@@ -168,8 +168,9 @@ hgroup {
         .carousel-item {
             padding: 10px;
             p {
-                padding: 30px;
+                padding: 35px;
                 margin: auto;
+                color: $white;
             }
         }
     }
@@ -201,4 +202,47 @@ footer {
         }
     }
 }
+/************************************** HOW DO WE WORK **************************************/
 
+
+/************************
+#services
+************************/
+#services {
+    position: absolute;
+    transform: translate(600px, -250px);
+    h1 {
+        color: $white !important;
+        background: rgba($secondaryColor, .8);
+        padding: 30px;
+        font-weight: 800;
+    }
+}
+
+/************************
+#hdw
+************************/
+#hdw {
+    padding: 50px 0;
+    h2 {
+        font-weight: 800;
+    }
+    .col-md-4 {
+        h2 {
+            transform: rotate(-90deg);
+            margin-bottom: 50px;
+        }
+    }
+    .col-md-8 {
+        .text {
+            border-bottom: 2px solid $secondaryColor;
+            margin: 30px 0;
+            h2 {
+                text-transform: uppercase;
+            }
+        }
+        .text:last-child {
+            border: none;
+        }
+    }
+}

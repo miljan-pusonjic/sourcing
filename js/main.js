@@ -22,4 +22,3 @@ $(window).on('scroll', function() {
 $('.carousel').carousel({
     interval: 7000
   })
-  
