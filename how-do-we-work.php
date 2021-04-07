@@ -1,6 +1,6 @@
 <?php include "partials/header.php"; ?>
 <!-- services -->
-<section id="services">
+<section id="naslov">
     <h1 class="">Services</h1>
 </section>
 

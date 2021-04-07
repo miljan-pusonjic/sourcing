@@ -200,15 +200,17 @@ footer a:hover {
   color: #fff;
 }
 
-/************************************** HOW DO WE WORK **************************************/
+/************************************** 
+HOW DO WE WORK 
+**************************************/
 /************************
-#services
+#naslov
 ************************/
-#services {
+#naslov {
   position: absolute;
-  transform: translate(600px, -250px);
+  transform: translate(550px, -250px);
 }
-#services h1 {
+#naslov h1 {
   color: #fff !important;
   background: rgba(238, 102, 108, 0.8);
   padding: 30px;
@@ -237,6 +239,38 @@ footer a:hover {
 }
 #hdw .col-md-8 .text:last-child {
   border: none;
+}
+
+/************************************** 
+EDUCATION 
+**************************************/
+#education {
+  padding: 100px 0;
+}
+#education .card {
+  background-color: transparent;
+  border: none;
+  border-radius: none;
+}
+#education .card .card-body {
+  padding: 0px;
+  margin-top: 20px;
+}
+#education .card .card-body h3 {
+  font-weight: 600;
+  color: #25235b;
+}
+#education .card .card-body .btn {
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #fff;
+  background-color: #ee666c;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 0;
+}
+#education .card .card-body .btn:hover {
+  background: #25235b;
 }
 
 /*# sourceMappingURL=style.css.map */
