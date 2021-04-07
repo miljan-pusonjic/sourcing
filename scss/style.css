@@ -244,23 +244,23 @@ HOW DO WE WORK
 /************************************** 
 EDUCATION 
 **************************************/
-#education {
+#education, #blog {
   padding: 100px 0;
 }
-#education .card {
+#education .card, #blog .card {
   background-color: transparent;
   border: none;
   border-radius: none;
 }
-#education .card .card-body {
+#education .card .card-body, #blog .card .card-body {
   padding: 0px;
   margin-top: 20px;
 }
-#education .card .card-body h3 {
+#education .card .card-body h3, #blog .card .card-body h3 {
   font-weight: 600;
   color: #25235b;
 }
-#education .card .card-body .btn {
+#education .card .card-body .btn, #blog .card .card-body .btn {
   text-transform: uppercase;
   font-weight: 400;
   color: #fff;
@@ -269,8 +269,27 @@ EDUCATION
   padding: 15px 30px;
   border-radius: 0;
 }
-#education .card .card-body .btn:hover {
+#education .card .card-body .btn:hover, #blog .card .card-body .btn:hover {
   background: #25235b;
+}
+
+/************************************** 
+BLOG
+**************************************/
+#blog h4 {
+  font-size: 1.2rem;
+}
+#blog h4::after {
+  content: "";
+  display: block;
+  margin: 20px 0;
+  width: 50px;
+  height: 2px;
+  border: none;
+  background: #ee666c;
+}
+#blog h3 {
+  font-size: 2.2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
