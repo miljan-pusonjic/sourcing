@@ -1,13 +1,3 @@
-//typed biblioteka
-var typed = new Typed('.element', {
-    strings: ['junior developer', 'full team'],
-    loop: true,
-    typeSpeed: 100,
-    smartBackspace: true,
-    backSpeed: 100,
-    loopCount: Infinity
-  });
-
 //navigacija
 $(window).on('scroll', function() {
   var scroll = $(window).scrollTop();
@@ -22,3 +12,20 @@ $(window).on('scroll', function() {
 $('.carousel').carousel({
     interval: 7000
   })
+
+//proba
+  function proba() {
+    console.log("test radi");
+  }
+  proba();
+
+//typed biblioteka
+var typed = new Typed('.element', {
+  strings: ['junior developer', 'full team'],
+  loop: true,
+  typeSpeed: 100,
+  smartBackspace: true,
+  backSpeed: 100,
+  loopCount: Infinity
+});
+  
