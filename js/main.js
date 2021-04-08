@@ -13,12 +13,7 @@ $('.carousel').carousel({
     interval: 7000
   })
 
-//proba
-  function proba() {
-    console.log("test radi");
-  }
-  proba();
-
+  
 //typed biblioteka
 var typed = new Typed('.element', {
   strings: ['junior developer', 'full team'],
